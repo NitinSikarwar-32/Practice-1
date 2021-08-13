@@ -16,3 +16,11 @@ for k in range(n+1):
     k=str(k)[2:]
     p=len(k)
     print(" "*(l-p)+k)
+    
+    OR
+n=int(input())
+for i in range(n+1):
+    i=bin(i)
+    i=str(i)[2:]
+    print(i.rjust(4))
+    
